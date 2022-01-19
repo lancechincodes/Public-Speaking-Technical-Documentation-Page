@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial;
+      padding: 10px;
+      background: #f1f1f1;
+    }
+
+    /* Header/Blog Title */
+    .header {
+      padding: 30px;
+      text-align: center;
+      background: white;
+    }
+
+    .header h1 {
+      font-size: 50px;
+    }
+
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {
+      float: left;
+      width: 10%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      margin-left: 75px;
+    }
+
+    /* Right column */
+    .rightcolumn {
+      float: left;
+      width: 75%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+      margin-left: 300px;
+    }
+
+    /* Add a card effect for articles */
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+
+    #nav {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <nav id="navbar" class="topnav">
+            <header id="nav"><u>NAVIGATION:</u></header>
+            <a href="#body_movement" class="nav-link">Body Movement</a>
+            <a href="#breathing" class="nav-link">Breathing</a>
+            <a href="#focus" class="nav-link">Focus</a>
+            <a href="#project_confidence" class="nav-link">Project Confidence</a>
+            <a href="#practice" class="nav-link">Practice</a>
+          </nav>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="header">
+            <h1>5 Keys to Effective Public Speaking</h1>
+          <p>Created by Lance Chin</p>
+        </div>
+        <main id="main-doc">
+          <div class="card">
+            <section class="main-section" id="body_movement">
+              <header><b><u>Body Movement</u></b></header
+              <code>
+              </code>
+              <code>
+              </code>
+              <h5>Ask yourself: Am I fidgeting?</h5>
+              <p>1st Key: Use body movement as an extension of your voice.</p>
+              <p>
+                <ul>
+                  <li>Use your hands to emphasize parts of your speech. Be careful to avoid overusing them as they can create a distraction.</li>
+                  <li>Try the diamond method. You will be able to give attention to everyone in the crowd.</li>
+                  <li>Avoid repetitive movements. Remember the focus is your message, not your movements!</li>
+                </ul>
+              </p>
+            </section>
+          </div>
+          <div class="card">
+            <section class="main-section" id="breathing">
+              <header><b><u>Breathing</u></b></header>
+              <code>
+              </code>
+              <h5>Ask yourself: Am I relaxed? </h5>
+              <p>2nd Key: Be mindful of your breathing.</p>
+              <p>
+                <ul>
+                  <li>Close your mouth after every sentence to avoid saying "um".</li>
+                  <li>Take deep breathes before speaking.</li>
+                  <li>Check your posture - your feet should be shoulder-width apart, weight equally distributed, and arms down to your sides.</li>
+                </ul>
+              </p>
+            </section>
+          </div>
+          <div class="card">
+            <section class="main-section" id="focus">
+              <header><b><u>Focus</u></b></header>
+              <code>
+              </code>
+              <h5>Ask yourself: Am I hitting my main points?</h5>
+              <p>3rd Key: Focus on the purpose of your speech.</p>
+              <p>
+                <ul>
+                  <li>If possible, form an outline of your speech before you speak.</li>
+                  <li>Be mindful of your audience.</li>
+                  <li>Keep your rhetoric simple.</li>
+                </ul>
+              </p>
+            </section>
+          </div>
+          <div class="card">
+            <section class="main-section" id="project_confidence">
+              <header><b><u>Project Confidence</u></b></header>
+              <code>
+              </code>
+              <h5>Ask yourself: Am I speaking loudly and clearly?</h5>
+              <p>4th Key: Project confidence whether you are pretending or not.</p>
+              <p>
+                <ul>
+                  <li>Watch experienced speakers and learn from them.</li>
+                  <li>Realize that you are given the floor for a reason - people want to listen to you.</li>
+                  <li>The more often you pretend to be confident,the more comfortable you will become with being confident!</li>
+                </ul>
+              </p>
+            </section>
+          </div>
+          <div class="card">
+            <section class="main-section" id="practice">
+              <header><b><u>Practice</u></b></header>
+              <code>
+              </code>
+              <h5>Ask yourself: Am I prepared?</h5>
+              <p>5th Key: Trust your practice. </p>
+              <p>
+                <ul>
+                  <li>Ask people you trust for constructive feedback.</li>
+                  <li>Practice in front of a mirror.</li>
+                  <li>Record yourself and listen to yourself. Listening to your own voice might sound weird at first, but you'll get used to it!</li>
+                </ul>
+              </p>
+            </section>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
